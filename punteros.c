@@ -8,7 +8,7 @@ void populate(char** m)
 	m[2] = "marzo";
 	m[3] = "abril";
 }
-
+// esto es un metodo show
 void show(char** m, int n)
 {
 	for (int i = 0; i < n; ++i)
@@ -54,6 +54,8 @@ void print_a(int* p, int f, int c)
 }
 int main()
 {
+
+// debes activar esta parte
 	/*char aux[20];
 	char* meses[4];
 	populate(meses);
